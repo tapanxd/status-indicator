@@ -1,0 +1,25 @@
+{
+  "name": "status-indicator",
+  "version": "1.0.0",
+  "description": "A lightweight npm package for managing and tracking user online statuses.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user",
+    "status",
+    "online",
+    "real-time",
+    "Redis",
+    "WebSocket"
+  ],
+  "author": "Tapan",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^4.7.0",
+    "status-indicator": "file:",
+    "ws": "^8.18.0"
+  }
+}
